@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- secrets / env ---
+.env
+*.env
+.env.*
+.streamlit/
+secrets.toml
+secrets.*.json
+
+# optional: local data artifacts
+data/*.json
+data/*.txt
+
+
